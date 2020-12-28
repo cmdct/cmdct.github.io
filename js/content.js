@@ -1,6 +1,6 @@
 const content = {
   home: {
-    title: 'Outils',
+    title: 'Liens',
     cards: [
       {
         title: 'Langage',
