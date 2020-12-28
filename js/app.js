@@ -3,8 +3,8 @@ const
 // - - - - - - - - TAG by Commanders Act, START - - - - - - - -
 
 tag = {
-  page: (template, page) => {
-    tc_vars.env_template = template;
+  page: (templates, page) => {
+    tc_vars.env_template = templates;
     tc_vars.page_name = page;
     if (tC) tC.event.virtualPageView(this, {})
   },
@@ -79,17 +79,17 @@ app = {
     switch (hash) {
       case '':
       case 'home': app.ui(
-          template.home,
+          templates.home,
           tag.page('home', content.home.main.head)
         );
         break;
       case 'doc': app.ui(
-          template.doc,
+          templates.doc,
           tag.page('products', content.doc.head)
         );
         break;
       default: app.ui(
-          template.default,
+          templates.default,
           tag.page('404', 'Not Found')
         )
     }
