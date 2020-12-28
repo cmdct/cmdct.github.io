@@ -1,4 +1,4 @@
-template = {
+const template = {
   home: `
     <section class="sect-b">
       <h2 class="title-p">${content.home.main.head}</h2>

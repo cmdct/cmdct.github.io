@@ -1,4 +1,4 @@
-content = {
+const content = {
   home: {
     main: {
       head: 'Customer Solutions Engineer',
