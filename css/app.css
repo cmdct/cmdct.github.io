@@ -615,13 +615,9 @@ h2,h3
 }
 @media all and (min-width:700px) and (max-width:1400px)
 {
-    .flash-m,#nos-m,#warn-m
+    .cards,.flash-m,#nos-m,#warn-m
     {
         width:85%;
-    }
-    .cards
-    {
-        width:65%;
     }
     #full-p-opt
     {
@@ -634,11 +630,11 @@ h2,h3
 }
 @media all and (min-width:1400px) and (max-width:3900px)
 {
-    .flash-m,#nos-m,#warn-m
+    .cards,.flash-m,#nos-m,#warn-m
     {
         width:75%;
     }
-    .cards,#full-p-opt
+    #full-p-opt
     {
         width:60%;
     }
