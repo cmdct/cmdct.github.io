@@ -1,4 +1,32 @@
 const templates = {
+  home: (function() {
+    let html = `
+          <section class="sect-c">
+            <div class="cards">
+              __cards__
+            </div>
+          </section>
+        `
+      , cards = ''
+      ;
+    content.home.cards.forEach((entry) => {
+      let card = `
+            <div class="card">
+              <div class="card-t">${entry.title}</div>
+              <div class="card-c">
+                __cardLinks__
+              </div>
+            </div>
+          `
+        , cardLinks = ''
+        ;
+      entry.links.forEach((link) => {
+        cardLinks += `<a class="link" target="_blank" href="${link.href}">${link.name}</a>`
+      });
+      cards += card.replace('__cardLinks__', cardLinks)
+    });
+    return html.replace('__cards__', cards)
+  }()),
   doc: `
     <section class="sect-b">
       <h2>${content.doc.head}</h2>

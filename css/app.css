@@ -263,7 +263,7 @@ body *
     text-decoration:none;
     -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
-header a:hover,header span:hover,.flash-m:hover,.pic-s img:hover,.ball:hover,input[type=radio]:hover,input[type=checkbox]:hover,input[type=submit]:hover,button[type=submit]:hover,.btn,footer a:hover,footer span:hover,.card,.card *,#warn-m:hover,#warn-m *:hover
+header a:hover,header span:hover,.flash-m:hover,.pic-s img:hover,.ball:hover,input[type=radio]:hover,input[type=checkbox]:hover,input[type=submit]:hover,button[type=submit]:hover,.btn,footer a:hover,footer span:hover,.link:hover,#warn-m:hover,#warn-m *:hover
 {
     cursor:pointer;
 }

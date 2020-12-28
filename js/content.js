@@ -1,4 +1,84 @@
 const content = {
+  home: {
+    title: 'Bureau',
+    cards: [
+      {
+        title: 'Langage',
+        links: [
+          {name: 'Tech', href: 'https://techterms.com'},
+          {name: 'Marketing', href: 'https://www.definitions-marketing.com'},
+          {name: 'Conjugueur', href: 'https://www.gymglish.com/fr/conjugaison/vatefaireconjuguer'},
+          {name: 'Wiktionary', href: 'https://www.wiktionary.org'},
+          {name: 'Wikipedia', href: 'https://www.wikipedia.org'},
+          {name: 'Translate', href: 'https://translate.google.com/?ui=tob&sl=en&tl=fr&op=translate'}
+        ]
+      },
+      {
+        title: 'Gestion',
+        links: [
+          {name: 'LastPass', href: 'https://lastpass.com/?ac=1&lpnorefresh=1'},
+          {name: 'Lucca', href: 'https://www.lucca.fr/login'},
+          {name: 'Zoho', href: 'https://accounts.zoho.eu/signin'},
+          {name: 'Slack', href: 'https://slack.com/signin#/signin'},
+          {name: 'Office', href: 'https://login.microsoftonline.com'},
+          {name: 'Spendek', href: 'https://app.spendesk.com/auth/login'}
+        ]
+      },
+      {
+        title: 'Solution',
+        links: [
+          {name: 'Corporate', href: 'https://www.commandersact.com'},
+          {name: 'Platform', href: 'https://platform.commandersact.com'},
+          {name: 'Extension', href: 'https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr'},
+          {name: 'Externe', href: '#documentation'},
+          {name: 'Interne', href: 'https://id.atlassian.com/login'},
+          {name: 'Stream', href: 'https://web.microsoftstream.com'}
+        ]
+      },
+      {
+        title: 'Client',
+        links: [
+          {name: 'DevTools', href: 'https://developers.google.com/web/tools/chrome-devtools'},
+          {name: 'Status Codes', href: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status'},
+          {name: 'Check IP', href: 'http://checkip.amazonaws.com/'},
+          {name: 'Masque', href: 'https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque'}
+        ]
+      },
+      {
+        title: 'Code',
+        links: [
+          {name: 'Beautifier', href: 'https://beautifier.io'},
+          {name: 'DiffNow', href: 'https://www.diffnow.com/compare-clips'},
+          {name: 'Codeshare', href: 'https://codeshare.io'}
+        ]
+      },
+      {
+        title: 'JavaScript',
+        links: [
+          {name: 'MDN', href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
+          {name: 'Eloquent', href: 'https://eloquentjavascript.net/'},
+          {name: 'ECMAScript', href: 'https://www.ecma-international.org/ecma-262/11.0/index.html#title'}
+        ]
+      },
+      {
+        title: 'CSS',
+        links: [
+          {name: 'Selectors', href: 'https://www.w3schools.com/cssref/css_selectors.asp'},
+          {name: 'Flexbox', href: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/'},
+          {name: 'Colors', href: 'https://en.wikipedia.org/wiki/Web_colors'},
+          {name: 'ColorZilla', href: 'https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp'}
+        ]
+      },
+      {
+        title: 'Regex',
+        links: [
+          {name: '101', href: 'https://regex101.com'},
+          {name: 'Tutorial', href: 'http://www.rexegg.com'},
+          {name: 'Cheat Sheet', href: 'https://regexcheatsheet.com'}
+        ]
+      }
+    ]
+  },
   doc: {
     head: 'Documentation',
     a: {
