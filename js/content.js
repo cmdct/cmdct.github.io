@@ -27,11 +27,9 @@ const content = {
         title: 'Solution',
         links: [
           {name: 'Platform', href: 'https://platform.commandersact.com'},
-          {name: 'Corporate', href: 'https://www.commandersact.com'},
           {name: 'Extension', href: 'https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr'},
           {name: 'Documentation', href: '#documentation'},
-          {name: 'Interne', href: 'https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global'},
-          {name: 'Stream', href: 'https://web.microsoftstream.com'}
+          {name: 'Corporate', href: 'https://www.commandersact.com'}
         ]
       },
       {
