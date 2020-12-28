@@ -1,4 +1,7 @@
 
+
+// TODO: Add nav burger (include #doc), Move Github pages link in À propos
+
 const app = {
   route: () => {
     const hash = location.hash.replace('#', '');
