@@ -18,13 +18,15 @@ const app = {
     }
   },
   ui: (html, template, title) => {
+    document.title = title;
     document.querySelector('#container').innerHTML = html;
     tracker.onPage(template, title)
   },
   init: () => {
-    app.route();
+    tracker.init();
+    document.querySelector('header h1').innerHTML = content.home.title;
     window.onhashchange = app.route;
-    tracker.init()
+    app.route()
   }
 };
 
