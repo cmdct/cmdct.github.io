@@ -7,10 +7,11 @@ const templates = {
           , links = ''
           ;
         entry.links.forEach((one) => {
+          let data
           links += templates.home.link
                     .replace('__href__', one.href)
                     .replace('__text__', one.name)
-                    .replace('__data__', entry.title + ' - ' + one.name)
+                    .replace('__data__', `'${entry.title + ' - ' + one.name}'`)
         });
         cards += card.replace('__links__', links)
       });
