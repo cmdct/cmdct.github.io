@@ -1,8 +1,8 @@
 const content = {
   home: {
     main: {
-      head: 'Customer Solutions Engineer',
-      body: 'Please note that this website is intended only to practice the implementation of the various Commanders Act products and is not an official showcase. The code of this website is also not related to Commanders Act technologies but simply to a personal web development project.'
+      head: 'Site Web de test',
+      body: 'Veuillez noter que ce site est destiné uniquement à pratiquer l\'implémentation des différents produits Commanders Act et n\'est pas une vitrine officielle. Le code de ce site n\'est pas non plus lié aux technologies Commanders Act mais à un projet de développement Web personnel.'
     },
     video: 'https://www.youtube.com/embed/6S9Es0UhzQg',
     cta: {
@@ -37,7 +37,7 @@ const content = {
       link: '#fuse'
     },
     cta: {
-      text: 'Internal',
+      text: 'Interne',
       href: 'https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global'
     }
   }
