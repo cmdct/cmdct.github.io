@@ -1,32 +1,37 @@
 const templates = {
-  home: (function() {
-    let html = `
-          <section class="sect-c">
-            <div class="cards">
-              __cards__
-            </div>
-          </section>
-        `
-      , cards = ''
-      ;
-    content.home.cards.forEach((entry) => {
-      let card = `
-            <div class="card">
-              <div class="card-t">${entry.title}</div>
-              <div class="card-c">
-                __cardLinks__
-              </div>
-            </div>
-          `
-        , cardLinks = ''
-        ;
-      entry.links.forEach((link) => {
-        cardLinks += `<a class="link" target="_blank" href="${link.href}">${link.name}</a>`
+  home: {
+    dynamic: () => {
+      let cards = '';
+      content.home.cards.forEach((entry) => {
+        let card = templates.home.card.replace('__title__', entry.title)
+          , links = ''
+          ;
+        entry.links.forEach((one) => {
+          links += templates.home.link
+                    .replace('__href__', one.href)
+                    .replace('__text__', one.name)
+        });
+        cards += card.replace('__links__', links)
       });
-      cards += card.replace('__cardLinks__', cardLinks)
-    });
-    return html.replace('__cards__', cards)
-  }()),
+      return templates.home.main.replace('__cards__', cards)
+    },
+    main: `
+      <section class="sect-c">
+        <div class="cards">
+          __cards__
+        </div>
+      </section>
+    `,
+    card: `
+      <div class="card">
+        <div class="card-t">__title__</div>
+        <div class="card-c">
+          __links__
+        </div>
+      </div>
+    `,
+    link: `<a class="link" target="_blank" href="__href__">__text__</a>`
+  },
   doc: `
     <section class="sect-b">
       <h2>${content.doc.head}</h2>
