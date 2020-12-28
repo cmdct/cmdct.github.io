@@ -5,10 +5,13 @@ const app = {
     switch (hash) {
       case '':
       case 'home':
-          app.ui(templates.home, 'home', content.home.main.head);
+          app.ui(templates.home, 'Home', '');
         break;
-      case 'doc':
-          app.ui(templates.doc, 'products', content.doc.head);
+      case 'documentation':
+          app.ui(templates.doc, 'Documentation', content.doc.head);
+        break;
+      case 'about':
+          app.ui(templates.about, 'About', content.about.main.head);
         break;
       default:
           app.ui(templates.default, '404', 'Not Found')

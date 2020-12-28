@@ -1,18 +1,4 @@
 const templates = {
-  home: `
-    <section class="sect-b">
-      <h2 class="title-p">${content.home.main.head}</h2>
-      <div class="text txt-2">
-        <p>${content.home.main.body}</p>
-      </div>
-      <div class="intersection"></div>
-      <iframe class="tub" src="${content.home.video}" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
-      <div class="intersection"></div>
-      <a class="btn-w btn-p btn btn-o" href="${content.home.cta.href}" onclick="tracker.onClick(\'Internal Nav', content.home.cta.text)">
-        ${content.home.cta.text}
-      </a>
-    </section>
-  `,
   doc: `
     <section class="sect-b">
       <h2>${content.doc.head}</h2>
@@ -45,6 +31,20 @@ const templates = {
       </div>
       <div class="intersection"></div>
       <a target="_blank" href="${content.doc.cta.href}" class="btn-w btn-p btn btn-x" onclick="tracker.onClick(\'Outbound link', content.doc.cta.text)">${content.doc.cta.text}</a>
+    </section>
+  `,
+  about: `
+    <section class="sect-b">
+      <h2 class="title-p">${content.about.main.head}</h2>
+      <div class="text txt-2">
+        <p>${content.about.main.body}</p>
+      </div>
+      <div class="intersection"></div>
+      <iframe class="tub" src="${content.about.video}" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
+      <div class="intersection"></div>
+      <a class="btn-w btn-p btn btn-o" href="${content.about.cta.href}" onclick="tracker.onClick(\'Internal Nav', content.about.cta.text)">
+        ${content.about.cta.text}
+      </a>
     </section>
   `,
   default: `
