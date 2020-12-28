@@ -5,7 +5,7 @@ const app = {
     switch (hash) {
       case '':
       case 'home':
-          app.ui(templates.home.dynamic(), 'Home', '');
+          app.ui(templates.home.dynamic(), 'Home', content.home.title);
         break;
       case 'documentation':
           app.ui(templates.doc, 'Documentation', content.doc.head);
