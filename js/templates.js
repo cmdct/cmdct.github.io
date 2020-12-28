@@ -10,6 +10,7 @@ const templates = {
           links += templates.home.link
                     .replace('__href__', one.href)
                     .replace('__text__', one.name)
+                    .replace('__data__', entry.title + ' - ' + one.name)
         });
         cards += card.replace('__links__', links)
       });
@@ -30,7 +31,7 @@ const templates = {
         </div>
       </div>
     `,
-    link: `<a class="link" target="_blank" href="__href__">__text__</a>`
+    link: `<a class="link" target="_blank" href="__href__" onclick="tracker.onClick(\'Outbound link', __data__)">__text__</a>`
   },
   doc: `
     <section class="sect-b">
