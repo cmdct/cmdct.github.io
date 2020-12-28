@@ -17,9 +17,9 @@ const content = {
         title: 'Gestion',
         links: [
           {name: 'LastPass', href: 'https://lastpass.com/?ac=1&lpnorefresh=1'},
-          {name: 'Lucca', href: 'https://www.lucca.fr/login'},
-          {name: 'Zoho', href: 'https://accounts.zoho.eu/signin'},
-          {name: 'Slack', href: 'https://slack.com/signin#/signin'},
+          {name: 'Lucca', href: 'https://fjordtechnologies.ilucca.net/home'},
+          {name: 'Zoho', href: 'https://accounts.zoho.eu/home#profile/personal'},
+          {name: 'Slack', href: 'https://tagcoteam.slack.com'},
           {name: 'Office', href: 'https://login.microsoftonline.com'},
           {name: 'Spendek', href: 'https://app.spendesk.com/auth/login'}
         ]
@@ -27,11 +27,11 @@ const content = {
       {
         title: 'Solution',
         links: [
-          {name: 'Corporate', href: 'https://www.commandersact.com'},
           {name: 'Platform', href: 'https://platform.commandersact.com'},
+          {name: 'Corporate', href: 'https://www.commandersact.com'},
           {name: 'Extension', href: 'https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr'},
           {name: 'Externe', href: '#documentation'},
-          {name: 'Interne', href: 'https://id.atlassian.com/login'},
+          {name: 'Interne', href: 'https://tagcommander.atlassian.net/wiki/spaces/CAH/overview?mode=global'},
           {name: 'Stream', href: 'https://web.microsoftstream.com'}
         ]
       },
