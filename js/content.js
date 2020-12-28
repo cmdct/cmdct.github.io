@@ -16,7 +16,6 @@ const content = {
       {
         title: 'Gestion',
         links: [
-          {name: 'LastPass', href: 'https://lastpass.com/?ac=1&lpnorefresh=1'},
           {name: 'Lucca', href: 'https://fjordtechnologies.ilucca.net/home'},
           {name: 'Zoho', href: 'https://accounts.zoho.eu/home#profile/personal'},
           {name: 'Slack', href: 'https://tagcoteam.slack.com'},
