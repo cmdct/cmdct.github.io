@@ -28,7 +28,7 @@ const content = {
         links: [
           {name: 'Platform', href: 'https://platform.commandersact.com'},
           {name: 'Extension', href: 'https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr'},
-          {name: 'Documentation', href: '#documentation'},
+          {name: 'Documentation', href: 'https://community.commandersact.com/en/'},
           {name: 'Corporate', href: 'https://www.commandersact.com'}
         ]
       },
