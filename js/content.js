@@ -17,7 +17,7 @@ const content = {
         title: 'Gestion',
         links: [
           {name: 'Lucca', href: 'https://fjordtechnologies.ilucca.net/home'},
-          {name: 'Zoho', href: 'https://accounts.zoho.eu/home#profile/personal'},
+          {name: 'Zoho', href: 'https://care.commandersact.com/support/commandersact529'},
           {name: 'Slack', href: 'https://tagcoteam.slack.com'},
           {name: 'Office', href: 'https://login.microsoftonline.com'},
           {name: 'Spendek', href: 'https://app.spendesk.com/auth/login'}
