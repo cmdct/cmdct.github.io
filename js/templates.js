@@ -72,7 +72,7 @@ const templates = {
             <span class="ball">${content.doc.b.text}</span>
           </a>
           <a target="_blank"
-             href="${content.doc.c.link}
+             href="${content.doc.c.link}"
              onclick="tracker.onClick('Outbound link', 'Bullet Link - ' + content.doc.c.text)"
           >
             <span class="ball">${content.doc.c.text}</span>
