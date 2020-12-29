@@ -116,7 +116,7 @@ const content = {
   },
   about: {
     main: {
-      head: "À propos de ce site",
+      head: "À propos",
       body: "Veuillez noter que ce site est destiné uniquement à pratiquer l'implémentation des différents produits Commanders Act et n'est en aucun cas une vitrine officielle. Le code de ce site n'est pas non plus lié aux technologies Commanders Act mais à un projet de développement Web personnel."
     },
     hosting: {
