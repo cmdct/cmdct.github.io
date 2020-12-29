@@ -109,13 +109,21 @@ const content = {
   },
   about: {
     main: {
-      head: 'À propos',
+      head: 'À propos de ce site',
       body: 'Veuillez noter que ce site est destiné uniquement à pratiquer l\'implémentation des différents produits Commanders Act et n\'est en aucun cas une vitrine officielle. Le code de ce site n\'est pas non plus lié aux technologies Commanders Act mais à un projet de développement Web personnel.'
     },
-    video: 'https://www.youtube.com/embed/6S9Es0UhzQg',
-    cta: {
-      text: 'Documentation',
-      href: '#documentation'
+    hosting: {
+      text: 'Hébergé sur GitHub Pages',
+      href: 'https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages'
+    },
+    sub: {
+      head: 'Commanders Act',
+      video: 'https://www.youtube.com/embed/6S9Es0UhzQg',
+      cta: {
+        text: 'Plus d\'information',
+        href: 'https://www.commandersact.com'
+      }
     }
+
   }
 };
