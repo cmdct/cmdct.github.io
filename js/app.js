@@ -8,7 +8,7 @@ const app = {
     switch (hash) {
       case '':
       case 'home':
-          app.ui(templates.home.dynamic(), 'Home', content.home.head);
+          app.ui(templates.dynamic.home(), 'Home', content.home.head);
         break;
       case 'documentation':
           app.ui(templates.doc, 'Documentation', content.doc.head);
@@ -30,8 +30,8 @@ const app = {
     app.route();
     window.onhashchange = app.route;
     document.querySelector('header h1').innerHTML = content.site.name;
-    templates.site.nav.dynamic();
-    templates.site.footer.dynamic();
+    templates.dynamic.nav();
+    templates.dynamic.footer();
     tracker.init()
   }
 };
