@@ -131,7 +131,7 @@ const templates = {
   `,
   default: `
     <section class="sect-c">
-      <h2>This page does not exist</h2>
+      <h2>${content.default}</h2>
     </section>
   `,
   dynamic: {

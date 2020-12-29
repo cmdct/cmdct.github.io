@@ -126,6 +126,7 @@ const content = {
     }
 
   },
+  default: "Cette page n'existe pas",
   site: {
     name: "Cmd",
     footer: {
