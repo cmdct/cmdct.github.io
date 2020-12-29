@@ -1,6 +1,6 @@
 
 
-// TODO: Add nav burger (include #doc), Move Github pages link in À propos
+// TODO: Add nav burger for mobile
 
 const app = {
   route: () => {
@@ -26,10 +26,12 @@ const app = {
     tracker.onPage(template, title)
   },
   init: () => {
-    tracker.init();
-    document.querySelector('header h1').innerHTML = content.home.title;
+    app.route();
     window.onhashchange = app.route;
-    app.route()
+    document.querySelector('header h1').innerHTML = content.site.name;
+    templates.site.nav.dynamic();
+    templates.site.footer.dynamic();
+    tracker.init()
   }
 };
 

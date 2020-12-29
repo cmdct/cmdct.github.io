@@ -1,9 +1,34 @@
 const content = {
   site: {
-    name: "Test",
+    name: "Cmd",
+    nav: [
+      {
+        href: "#home",
+        text: "Général"
+      },
+      {
+        href: "#documentation",
+        text: "Documentation"
+      },
+      {
+        href: "#about",
+        text: "À propos"
+      }
+    ],
     footer: {
-      text: "GitHub Pages",
-      href: "https://pages.github.com"
+      texts: [
+        {
+          text: "GitHub Pages",
+          href: "https://pages.github.com"
+        }
+      ],
+      icons: [
+        {
+          name: "Github",
+          href: "https://github.com/cmdct/cmdct.github.io",
+          src: "images/iconmonstr-github.png"
+        }
+      ]
     }
   },
   home: {
@@ -117,7 +142,7 @@ const content = {
   about: {
     main: {
       head: "À propos",
-      body: "Veuillez noter que ce site est destiné uniquement à pratiquer l'implémentation des différents produits Commanders Act et n'est en aucun cas une vitrine officielle. Le code de ce site n'est pas non plus lié aux technologies Commanders Act mais à un projet de développement Web personnel."
+      body: "Veuillez noter que ce site est destiné uniquement à pratiquer l'implémentation des différents produits Commanders Act et n'est en aucun cas une vitrine officielle. Le code de ce site n'est pas non plus lié aux technologies Commanders Act mais à un projet de développement Web personnel. Les données collectées ne sont utilisées que pour vérifier la configuration."
     },
     hosting: {
       text: "Hébergé sur GitHub Pages",

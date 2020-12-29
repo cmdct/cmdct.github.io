@@ -38,47 +38,15 @@
           <div class="drop-i-s"></div>
           <div class="drop-i-l"></div>
         </div>
-        <div id="drop-i-c">
-          <a href="#home"
-             class="btn-w btn-p"
-             onclick="tracker.onClick('Internal Nav', 'Nav Burger - Général')"
-          >Général</a>
-          <a href="#documentation"
-             class="btn-w btn-p"
-             onclick="tracker.onClick('Internal Nav', 'Nav Burger - Commanders Act')"
-          >Commanders Act</a>
-          <a href="#about"
-             class="btn-w btn-p"
-             onclick="tracker.onClick('Internal Nav', 'Nav Burger - À propos')"
-          >À propos</a>
-        </div>
+        <div id="drop-i-c"></div>
       </nav>
     </header>
 
     <div id="container"></div>
 
     <footer id="foot">
-      <div class="foot-d">
-        <a class="foot-l"
-           href="#about"
-           onclick="tracker.onClick('Internal Nav', 'Footer Text - Commanders Act')"
-        >À propos</a>
-        <a class="foot-l"
-           target="_blank"
-           href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages"
-           onclick="tracker.onClick('Outbound link', 'Footer Text - Github Pages')"
-        >GitHub Pages</a>
-      </div>
-      <div class="foot-d">
-        <a target="_blank"
-           href="https://github.com/cmdct/cmdct.github.io"
-           onclick="tracker.onClick('Outbound link', 'Footer Icon - Github')">
-           <img class="foot-i icon"
-            src="images/iconmonstr-github.png"
-            alt="GitHub"
-           />
-        </a>
-      </div>
+      <div class="foot-d" id="foot-texts"></div>
+      <div class="foot-d" id="foot-icons"></div>
     </footer>
     <noscript>
       <div id="nos-b"><div id="nos-m">JavaScript is not enabled</div></div>
