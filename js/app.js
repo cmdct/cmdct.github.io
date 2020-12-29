@@ -23,6 +23,7 @@ const app = {
   ui: (html, template, title) => {
     document.title = title;
     document.querySelector('#container').innerHTML = html;
+    window.scrollTo(0, 0);
     tracker.onPage(template, title)
   },
   init: () => {
