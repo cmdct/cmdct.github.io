@@ -554,6 +554,10 @@ h2,h3
 {
     font-size:calc(var(--x3)*0.9);
 }
+.link
+{
+  font-size:calc(var(--x3)*0.8);
+}
 .flash-m,.help,.help-l,form > div,form li,#nos-m,#warn-m,#nos-m,#warn-m *
 {
     font-size:calc(var(--x3)*0.8);
