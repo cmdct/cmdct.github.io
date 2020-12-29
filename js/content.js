@@ -1,6 +1,13 @@
 const content = {
+  site: {
+    name: "Test",
+    footer: {
+      text: "GitHub Pages",
+      href: "https://pages.github.com"
+    }
+  },
   home: {
-    title: "Liens",
+    title: "Liens utiles",
     cards: [
       {
         title: "Langage",

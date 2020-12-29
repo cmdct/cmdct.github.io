@@ -19,6 +19,7 @@ const templates = {
     },
     main: `
       <section class="sect-c">
+        <h2>${content.home.title}</h2>
         <div class="cards">
           __cards__
         </div>
@@ -70,7 +71,7 @@ const templates = {
   `,
   about: `
     <section class="sect-b">
-      <h2 class="title-p">${content.about.main.head}</h2>
+      <h2>${content.about.main.head}</h2>
       <div class="text txt-2">
         <p>${content.about.main.body}</p>
       </div>
