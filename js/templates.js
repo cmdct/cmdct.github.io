@@ -132,6 +132,10 @@ const templates = {
   default: `
     <section class="sect-c">
       <h2>${content.default}</h2>
+      <br />
+      <a class="link" target="_blank" href="https://www.youtube.com/watch?v=Smwrw4sNCxE"
+          onclick="tracker.onClick('Outbound link', 'The Matrix has you...')"
+       >Follow the white rabbit.</a>
     </section>
   `,
   dynamic: {
