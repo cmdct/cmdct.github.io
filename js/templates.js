@@ -76,7 +76,7 @@ const templates = {
     },
     main: `
       <section class="sect-c">
-        <h2>${content.home.title}</h2>
+        <h2>${content.home.head}</h2>
         <div class="cards">
           __cards__
         </div>
