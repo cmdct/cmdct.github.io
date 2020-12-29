@@ -1,15 +1,6 @@
 const templates = {
   site: {
     nav: {
-      dynamic: () => {
-        let links = '';
-        content.site.nav.forEach((entry) => {
-          links += templates.site.nav.link
-                    .replace('__href__', entry.href)
-                    .replace(/__text__/g, entry.text)
-        });
-        document.querySelector('#drop-i-c').insertAdjacentHTML('afterbegin', links)
-      },
       link: `
         <a href="__href__"
            class="btn-w btn-p"
@@ -18,25 +9,6 @@ const templates = {
       `,
     },
     footer: {
-      dynamic: () => {
-        let texts = ''
-          , icons = ''
-          ;
-        content.site.footer.texts.forEach((entry) => {
-          texts += templates.site.footer.text
-                    .replace(/__text__/g, entry.text)
-                    .replace('__href__', entry.href)
-
-        });
-        content.site.footer.icons.forEach((entry) => {
-          icons += templates.site.footer.icon
-                    .replace(/__name__/g, entry.name)
-                    .replace('__href__', entry.href)
-                    .replace('__src__', entry.src)
-        });
-        document.querySelector('#foot-texts').insertAdjacentHTML('afterbegin', texts);
-        document.querySelector('#foot-icons').insertAdjacentHTML('afterbegin', icons)
-      },
       text: `
         <a class="foot-l"
            target="_blank"
@@ -57,23 +29,6 @@ const templates = {
     },
   },
   home: {
-    dynamic: () => {
-      let cards = '';
-      content.home.cards.forEach((entry) => {
-        let card = templates.home.card.replace('__title__', entry.title)
-          , links = ''
-          ;
-        entry.links.forEach((one) => {
-          let data
-          links += templates.home.link
-                    .replace('__href__', one.href)
-                    .replace('__text__', one.name)
-                    .replace('__data__', `'${entry.title + ' - ' + one.name}'`)
-        });
-        cards += card.replace('__links__', links)
-      });
-      return templates.home.main.replace('__cards__', cards)
-    },
     main: `
       <section class="sect-c">
         <h2>${content.home.head}</h2>
@@ -90,9 +45,10 @@ const templates = {
         </div>
       </div>
     `,
-    link: `<a class="link" target="_blank" href="__href__"
-              onclick="tracker.onClick('Outbound link', __data__)"
-           >__text__</a>
+    link: `
+      <a class="link" target="_blank" href="__href__"
+          onclick="tracker.onClick('Outbound link', __data__)"
+       >__text__</a>
     `
   },
   doc: `
@@ -177,5 +133,51 @@ const templates = {
     <section class="sect-c">
       <h2>This page does not exist</h2>
     </section>
-  `
+  `,
+  dynamic: {
+    nav: () => {
+      let links = '';
+      content.site.nav.forEach((entry) => {
+        links += templates.site.nav.link
+                  .replace('__href__', entry.href)
+                  .replace(/__text__/g, entry.text)
+      });
+      document.querySelector('#drop-i-c').insertAdjacentHTML('afterbegin', links)
+    },
+    footer: () => {
+      let texts = ''
+        , icons = ''
+        ;
+      content.site.footer.texts.forEach((entry) => {
+        texts += templates.site.footer.text
+                  .replace(/__text__/g, entry.text)
+                  .replace('__href__', entry.href)
+      });
+      content.site.footer.icons.forEach((entry) => {
+        icons += templates.site.footer.icon
+                  .replace(/__name__/g, entry.name)
+                  .replace('__href__', entry.href)
+                  .replace('__src__', entry.src)
+      });
+      document.querySelector('#foot-texts').insertAdjacentHTML('afterbegin', texts);
+      document.querySelector('#foot-icons').insertAdjacentHTML('afterbegin', icons)
+    },
+    home: () => {
+      let cards = '';
+      content.home.cards.forEach((entry) => {
+        let card = templates.home.card.replace('__title__', entry.title)
+          , links = ''
+          ;
+        entry.links.forEach((one) => {
+          let data
+          links += templates.home.link
+                    .replace('__href__', one.href)
+                    .replace('__text__', one.name)
+                    .replace('__data__', `'${entry.title + ' - ' + one.name}'`)
+        });
+        cards += card.replace('__links__', links)
+      });
+      return templates.home.main.replace('__cards__', cards)
+    }
+  }
 };
