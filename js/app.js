@@ -8,7 +8,7 @@ const app = {
     switch (hash) {
       case '':
       case 'home':
-          app.ui(templates.home.dynamic(), 'Home', content.home.title);
+          app.ui(templates.home.dynamic(), 'Home', content.home.head);
         break;
       case 'documentation':
           app.ui(templates.doc, 'Documentation', content.doc.head);
