@@ -1,38 +1,6 @@
 const content = {
-  site: {
-    name: "Cmd",
-    nav: [
-      {
-        href: "#home",
-        text: "Général"
-      },
-      {
-        href: "#documentation",
-        text: "Documentation"
-      },
-      {
-        href: "#about",
-        text: "À propos"
-      }
-    ],
-    footer: {
-      texts: [
-        {
-          text: "GitHub Pages",
-          href: "https://pages.github.com"
-        }
-      ],
-      icons: [
-        {
-          name: "Github",
-          href: "https://github.com/cmdct/cmdct.github.io",
-          src: "images/iconmonstr-github.png"
-        }
-      ]
-    }
-  },
   home: {
-    title: "Liens utiles",
+    head: "Liens utiles",
     cards: [
       {
         title: "Langage",
@@ -157,5 +125,37 @@ const content = {
       }
     }
 
+  },
+  site: {
+    name: "Cmd",
+    footer: {
+      texts: [
+        {
+          text: "GitHub Pages",
+          href: "https://pages.github.com"
+        }
+      ],
+      icons: [
+        {
+          name: "Github",
+          href: "https://github.com/cmdct/cmdct.github.io",
+          src: "images/iconmonstr-github.png"
+        }
+      ]
+    }
   }
 };
+content.site.nav = [
+  {
+    href: "#home",
+    text: content.home.head
+  },
+  {
+    href: "#documentation",
+    text: content.doc.head
+  },
+  {
+    href: "#about",
+    text: content.about.main.head
+  }
+];
