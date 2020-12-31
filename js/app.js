@@ -1,6 +1,9 @@
 
 
-// TODO: Add nav burger for mobile
+// TODO:
+// - Add warning message when Trust is blocked on advanced privacy browser
+// - Add flash message when user consent is saved successfully
+// - Improve nav burger for mobile
 
 const app = {
   route: () => {
@@ -24,7 +27,7 @@ const app = {
     document.title = title;
     document.querySelector('#container').innerHTML = html;
     window.scrollTo(0, 0);
-    ux.onPage(template, title)
+    ux.pageView(template, title)
   },
   init: () => {
     app.route();
