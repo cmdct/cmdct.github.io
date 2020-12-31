@@ -24,7 +24,7 @@ const app = {
     document.title = title;
     document.querySelector('#container').innerHTML = html;
     window.scrollTo(0, 0);
-    tracker.onPage(template, title)
+    ux.onPage(template, title)
   },
   init: () => {
     app.route();
@@ -32,7 +32,7 @@ const app = {
     document.querySelector('header h1').innerHTML = content.site.name;
     templates.dynamic.nav();
     templates.dynamic.footer();
-    tracker.init()
+    ux.init()
   }
 };
 

@@ -1,4 +1,4 @@
-const tracker = {
+const ux = {
   onPage: (templates, page) => {
     tc_vars.env_template = templates;
     tc_vars.page_name = page;
@@ -68,7 +68,7 @@ const tracker = {
   init: () => {
     window.gtag = window.gtag || undefined;
     window.tC = window.tC || undefined;
-    tracker.setPrivacyButtonCallback();
-    tracker.setPrivacyCenterCallback()
+    ux.setPrivacyButtonCallback();
+    ux.setPrivacyCenterCallback()
   }
 };
