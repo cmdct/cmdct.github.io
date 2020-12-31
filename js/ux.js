@@ -13,19 +13,19 @@ const ux = {
   },
   setClosePrivacyCallback: () => {
     window.tc_closePrivacyButton = function(callbackValue) {
-      if (callbackValue === 'button_A') {
+      if (callbackValue === 'button_B') {
         tC.script.add('https://cdn.tagcommander.com/5423/tc_Sylvain_23.js');
         const maximumIteration = 12
             , timeInMilliseconds = 250
-            , checkScriptLoadInteration = 0
+            , checkScriptLoadIteration = 0
             , checkScriptLoad = setInterval(() => {
                 if (window.gtag) {
                   clearInterval(checkScriptLoad);
                   tC.event.virtualPageView(this, {})
-                } else if (checkScriptLoadInterval >= maximumIteration) {
+                } else if (checkScriptLoadIteration >= maximumIteration) {
                   clearInterval(checkScriptLoad)
                 } else {
-                  checkScriptLoadInteration++
+                  checkScriptLoadIteration++
                 }
               }, timeInMilliseconds)
             ;
@@ -38,15 +38,15 @@ const ux = {
         tC.script.add('https://cdn.tagcommander.com/5423/tc_Sylvain_23.js');
         const maximumIteration = 12
             , timeInMilliseconds = 250
-            , checkScriptLoadInteration = 0
+            , checkScriptLoadIteration = 0
             , checkScriptLoad = setInterval(() => {
                 if (window.gtag) {
                   clearInterval(checkScriptLoad);
                   tC.event.virtualPageView(this, {})
-                } else if (checkScriptLoadInterval >= maximumIteration) {
+                } else if (checkScriptLoadIteration >= maximumIteration) {
                   clearInterval(checkScriptLoad)
                 } else {
-                  checkScriptLoadInteration++
+                  checkScriptLoadIteration++
                 }
               }, timeInMilliseconds)
             , checkPrivacyBannerIteration = 0
