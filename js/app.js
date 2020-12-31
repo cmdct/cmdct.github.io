@@ -1,7 +1,8 @@
 
 
 // TODO:
-// - Add warning message when Trust is blocked on advanced privacy browser
+// - Add a link to Trust Privacy Center to authorize reopening
+// - Add warning message when Trust Privacy is blocked on advanced privacy browser
 // - Add flash message when user consent is saved successfully
 // - Improve nav burger for mobile
 
