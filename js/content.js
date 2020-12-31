@@ -36,6 +36,7 @@ const content = {
         title: "Client",
         links: [
           {name: "DevTools", href: "https://developers.google.com/web/tools/chrome-devtools"},
+          {name: "URL Encoding", href: "https://www.w3schools.com/tags/ref_urlencode.ASP"},
           {name: "Status Codes", href: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"},
           {name: "Check IP", href: "http://checkip.amazonaws.com/"},
           {name: "Masque", href: "https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque"}
