@@ -4,7 +4,7 @@ const templates = {
       link: `
         <a href="__href__"
            class="btn-w btn-p"
-           onclick="ux.onClick('Internal Nav', 'Nav Burger - __text__')"
+           onclick="ux.clickEvent('Internal Nav', 'Nav Burger - __text__')"
         >__text__</a>
       `,
     },
@@ -13,13 +13,13 @@ const templates = {
         <a class="foot-l"
            target="_blank"
            href="__href__"
-           onclick="ux.onClick('Outbound link', 'Footer Text - __text__')"
+           onclick="ux.clickEvent('Outbound link', 'Footer Text - __text__')"
         >__text__</a>
       `,
       icon: `
         <a target="_blank"
            href="__href__"
-           onclick="ux.onClick('Outbound link', 'Footer Icon - __name__')">
+           onclick="ux.clickEvent('Outbound link', 'Footer Icon - __name__')">
            <img class="foot-i icon"
             src="__src__"
             alt="__name__"
@@ -47,7 +47,7 @@ const templates = {
     `,
     link: `
       <a class="link" target="_blank" href="__href__"
-          onclick="ux.onClick('Outbound link', __data__)"
+          onclick="ux.clickEvent('Outbound link', __data__)"
        >__text__</a>
     `
   },
@@ -59,7 +59,7 @@ const templates = {
         <div class="ball-l">
           <a target="_blank"
              href="${content.doc.a.link}"
-             onclick="ux.onClick('Outbound link', 'Bullet Link - ' + content.doc.a.text)"
+             onclick="ux.clickEvent('Outbound link', 'Bullet Link - ' + content.doc.a.text)"
           >
             <span class="ball">${content.doc.a.text}</span>
           </a>
@@ -67,13 +67,13 @@ const templates = {
         <div class="ball-l">
           <a target="_blank"
              href="${content.doc.b.link}"
-             onclick="ux.onClick('Outbound link', 'Bullet Link - ' + content.doc.b.text)"
+             onclick="ux.clickEvent('Outbound link', 'Bullet Link - ' + content.doc.b.text)"
           >
             <span class="ball">${content.doc.b.text}</span>
           </a>
           <a target="_blank"
              href="${content.doc.c.link}"
-             onclick="ux.onClick('Outbound link', 'Bullet Link - ' + content.doc.c.text)"
+             onclick="ux.clickEvent('Outbound link', 'Bullet Link - ' + content.doc.c.text)"
           >
             <span class="ball">${content.doc.c.text}</span>
           </a>
@@ -81,19 +81,19 @@ const templates = {
         <div class="ball-l">
           <a target="_blank"
              href="${content.doc.d.link}"
-             onclick="ux.onClick('Outbound link', 'Bullet Link - ' + content.doc.d.text)"
+             onclick="ux.clickEvent('Outbound link', 'Bullet Link - ' + content.doc.d.text)"
           >
             <span class="ball">${content.doc.d.text}</span>
           </a>
           <a target="_blank"
              href="${content.doc.e.link}"
-             onclick="ux.onClick('Outbound link', 'Bullet Link - ' + content.doc.e.text)"
+             onclick="ux.clickEvent('Outbound link', 'Bullet Link - ' + content.doc.e.text)"
           >
             <span class="ball">${content.doc.e.text}</span>
           </a>
           <a target="_blank"
              href="${content.doc.f.link}"
-             onclick="ux.onClick('Outbound link', 'Bullet Link - ' + content.doc.f.text)"
+             onclick="ux.clickEvent('Outbound link', 'Bullet Link - ' + content.doc.f.text)"
           >
             <span class="ball">${content.doc.f.text}</span>
           </a>
@@ -103,7 +103,7 @@ const templates = {
       <a target="_blank"
          href="${content.doc.cta.href}"
          class="btn-w btn-p btn btn-x"
-         onclick="ux.onClick('Outbound link', 'Button - ' + content.doc.cta.text)"
+         onclick="ux.clickEvent('Outbound link', 'Button - ' + content.doc.cta.text)"
       >${content.doc.cta.text}</a>
     </section>
   `,
@@ -116,7 +116,7 @@ const templates = {
       <a class="link"
          target="_blank"
          href="${content.about.hosting.href}"
-         onclick="ux.onClick('Outbound link', 'Simple Link - ' + content.about.hosting.text)"
+         onclick="ux.clickEvent('Outbound link', 'Simple Link - ' + content.about.hosting.text)"
       >${content.about.hosting.text}</a>
       <div class="intersection"></div>
       <h2 class="title-p">${content.about.sub.head}</h2>
@@ -125,7 +125,7 @@ const templates = {
       <a target="_blank"
          class="btn-w btn-p btn btn-o"
          href="${content.about.sub.cta.href}"
-         onclick="ux.onClick('Outbound link', 'Button - ' + content.about.sub.cta.text)"
+         onclick="ux.clickEvent('Outbound link', 'Button - ' + content.about.sub.cta.text)"
       >${content.about.sub.cta.text}</a>
     </section>
   `,
@@ -134,7 +134,7 @@ const templates = {
       <h2>${content.default}</h2>
       <br />
       <a class="link" target="_blank" href="https://www.youtube.com/watch?v=Smwrw4sNCxE"
-          onclick="ux.onClick('Outbound link', 'The Matrix has you...')"
+          onclick="ux.clickEvent('Outbound link', 'The Matrix has you...')"
        >Follow the white rabbit.</a>
     </section>
   `,

@@ -1,17 +1,17 @@
 const ux = {
-  onPage: (templates, page) => {
+  pageView: (templates, page) => {
     tc_vars.env_template = templates;
     tc_vars.page_name = page;
     if (tC) tC.event.virtualPageView(this, {})
   },
-  onClick: (category, label) => {
+  clickEvent: (category, label) => {
     if (tC) tC.event.buttonClick(this, {
       'eventAction': 'Button Click',
       'eventCategory': category,
       'eventLabel': label
     })
   },
-  setPrivacyButtonCallback: () => {
+  setClosePrivacyCallback: () => {
     window.tc_closePrivacyButton = function(callbackValue) {
       if (callbackValue === 'button_A') {
         tC.script.add('https://cdn.tagcommander.com/5423/tc_Sylvain_23.js');
@@ -32,7 +32,7 @@ const ux = {
       }
     }
   },
-  setPrivacyCenterCallback: () => {
+  setClosePrivacyCenterCallback: () => {
     window.tc_closePrivacyCenter = function(callbackValue) {
       if (callbackValue === 'save') {
         tC.script.add('https://cdn.tagcommander.com/5423/tc_Sylvain_23.js');
@@ -68,7 +68,8 @@ const ux = {
   init: () => {
     window.gtag = window.gtag || undefined;
     window.tC = window.tC || undefined;
-    ux.setPrivacyButtonCallback();
-    ux.setPrivacyCenterCallback()
+    ux.setClosePrivacyCenterCallback();
+    ux.setClosePrivacyCallback()
+
   }
 };
