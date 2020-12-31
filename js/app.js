@@ -8,8 +8,7 @@
 
 const app = {
   route: () => {
-    const hash = location.hash.replace('#', '');
-    switch (hash) {
+    switch (location.hash.replace('#', '')) {
       case '':
       case 'home':
           app.ui(templates.dynamic.home(), 'Home', content.home.head);
