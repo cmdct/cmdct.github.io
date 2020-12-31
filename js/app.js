@@ -1,5 +1,4 @@
 
-
 // TODO:
 // - Add a link to Trust Privacy Center to authorize reopening
 // - Add warning message when Trust Privacy is blocked on advanced privacy browser
@@ -11,16 +10,16 @@ const app = {
     switch (location.hash.replace('#', '')) {
       case '':
       case 'home':
-          app.ui(templates.dynamic.home(), 'Home', content.home.head);
+        app.ui(templates.dynamic.home(), 'Home', content.home.name);
         break;
       case 'documentation':
-          app.ui(templates.doc, 'Documentation', content.doc.head);
+        app.ui(templates.doc, 'Documentation', content.doc.name);
         break;
       case 'about':
-          app.ui(templates.about, 'About', content.about.main.head);
+        app.ui(templates.about, 'About', content.about.main.name);
         break;
       default:
-          app.ui(templates.default, '404', 'Not Found')
+        app.ui(templates.default, '404', 'Not Found')
     }
   },
   ui: (html, template, title) => {
