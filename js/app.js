@@ -1,5 +1,8 @@
 
 // TODO:
+// - Find and add a Media Queries resource
+// - Create and add a dedicated Google Analytics account
+// - Add labels on hover on documentation bullets, based on fiche-de-poste.pdf
 // - Add a link to Trust Privacy Center to authorize reopening
 // - Add warning message when Trust Privacy is blocked on advanced privacy browser
 // - Add flash message when user consent is saved successfully
