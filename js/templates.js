@@ -54,7 +54,6 @@ const templates = {
   doc: `
     <section class="sect-b">
       <h2>${content.doc.name}</h2>
-      <div class="intersection"></div>
       <div id="balls">
         <div class="ball-l">
           <a target="_blank"
@@ -99,6 +98,7 @@ const templates = {
           </a>
         </div>
       </div>
+      <div class="intersection"></div>
       <a target="_blank"
          href="${content.doc.cta.href}"
          class="btn-w btn-p btn btn-x"
