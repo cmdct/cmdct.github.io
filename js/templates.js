@@ -99,7 +99,6 @@ const templates = {
           </a>
         </div>
       </div>
-      <div class="intersection"></div>
       <a target="_blank"
          href="${content.doc.cta.href}"
          class="btn-w btn-p btn btn-x"
