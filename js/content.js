@@ -80,6 +80,10 @@ const content = {
             href: "https://developers.google.com/web/tools/chrome-devtools"
           },
           {
+            name: "Local Overrides",
+            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
+          },
+          {
             name: "URL Encoding",
             href: "https://www.w3schools.com/tags/ref_urlencode.ASP"
           },
