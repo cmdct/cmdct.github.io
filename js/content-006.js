@@ -70,6 +70,10 @@ const content = {
           {
             name: "Corporate",
             href: "https://www.commandersact.com"
+          },
+          {
+            name: "GitHub",
+            href: "https://github.com/TagCommander"
           }
         ]
       },
