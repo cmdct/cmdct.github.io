@@ -168,6 +168,34 @@ const content = {
             href: "https://regexcheatsheet.com"
           }
         ]
+      },
+      {
+        name: "Actualité",
+        links: [{
+            name: "BDM",
+            href: "https://www.blogdumoderateur.com/"
+          },
+          {
+            name: "Silicon",
+            href: "https://www.silicon.fr/"
+          },
+          {
+            name: "Usine Digitale",
+            href: "https://www.usine-digitale.fr/"
+          },
+          {
+            name: "Next INpact",
+            href: "https://www.nextinpact.com/"
+          },
+          {
+            name: "Usbek & Rica",
+            href: "https://usbeketrica.com/fr"
+          },
+          {
+            name: "ZATAZ",
+            href: "https://www.zataz.com/"
+          }
+        ]
       }
     ]
   },
