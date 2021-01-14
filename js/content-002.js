@@ -184,12 +184,12 @@ const content = {
             href: "https://www.usine-digitale.fr/"
           },
           {
-            name: "Next INpact",
-            href: "https://www.nextinpact.com/"
-          },
-          {
             name: "Usbek & Rica",
             href: "https://usbeketrica.com/fr"
+          },
+          {
+            name: "Next INpact",
+            href: "https://www.nextinpact.com/"
           },
           {
             name: "ZATAZ",
