@@ -65,7 +65,7 @@ const content = {
           },
           {
             name: "Documentation",
-            href: "https://community.commandersact.com/en/"
+            href: "https://community.commandersact.com/en"
           },
           {
             name: "Corporate",
@@ -97,7 +97,7 @@ const content = {
           },
           {
             name: "Check IP",
-            href: "http://checkip.amazonaws.com/"
+            href: "http://checkip.amazonaws.com"
           },
           {
             name: "Masque",
@@ -129,7 +129,7 @@ const content = {
           },
           {
             name: "Eloquent",
-            href: "https://eloquentjavascript.net/"
+            href: "https://eloquentjavascript.net"
           },
           {
             name: "ECMAScript",
@@ -145,7 +145,7 @@ const content = {
           },
           {
             name: "Flexbox",
-            href: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+            href: "https://css-tricks.com/snippets/css/a-guide-to-flexbox"
           },
           {
             name: "Colors",
@@ -174,50 +174,50 @@ const content = {
         ]
       },
       {
-        name: "Actualité",
+        name: "Recherche",
         links: [{
-            name: "Blog du Modérateur",
-            href: "https://www.blogdumoderateur.com/"
+            name: "Google",
+            href: "https://www.google.com"
           },
           {
-            name: "Usine Digitale",
-            href: "https://www.usine-digitale.fr/"
+            name: "Bing",
+            href: "https://www.bing.com"
           },
           {
-            name: "Next INpact",
-            href: "https://www.nextinpact.com/"
+            name: "Yahoo",
+            href: "https://search.yahoo.com"
           },
           {
-            name: "Silicon",
-            href: "https://www.silicon.fr/"
+            name: "Baidu",
+            href: "https://www.baidu.com"
           },
           {
-            name: "ZATAZ",
-            href: "https://www.zataz.com/"
+            name: "Yandex",
+            href: "https://yandex.com"
           }
         ]
       },
       {
-        name: "Recherche",
+        name: "Veille",
         links: [{
-            name: "Google",
-            href: "https://www.google.com/"
+            name: "Blog du Modérateur",
+            href: "https://www.blogdumoderateur.com"
           },
           {
-            name: "Bing",
-            href: "https://www.bing.com/"
+            name: "Industrie Techno",
+            href: "https://www.industrie-techno.com"
           },
           {
-            name: "Yahoo",
-            href: "https://search.yahoo.com/"
+            name: "Usine Digitale",
+            href: "https://www.usine-digitale.fr"
           },
           {
-            name: "Baidu",
-            href: "https://www.baidu.com/"
+            name: "Next INpact",
+            href: "https://www.nextinpact.com"
           },
           {
-            name: "Yandex",
-            href: "https://yandex.com/"
+            name: "Silicon",
+            href: "https://www.silicon.fr"
           }
         ]
       }
