@@ -172,12 +172,8 @@ const content = {
       {
         name: "Actualité",
         links: [{
-            name: "BDM",
+            name: "Blog du Modérateur",
             href: "https://www.blogdumoderateur.com/"
-          },
-          {
-            name: "Silicon",
-            href: "https://www.silicon.fr/"
           },
           {
             name: "Usine Digitale",
@@ -192,8 +188,36 @@ const content = {
             href: "https://www.nextinpact.com/"
           },
           {
+            name: "Silicon",
+            href: "https://www.silicon.fr/"
+          },
+          {
             name: "ZATAZ",
             href: "https://www.zataz.com/"
+          }
+        ]
+      },
+      {
+        name: "Recherche",
+        links: [{
+            name: "Google",
+            href: "https://www.google.com/"
+          },
+          {
+            name: "Bing",
+            href: "https://www.bing.com/"
+          },
+          {
+            name: "Yahoo",
+            href: "https://search.yahoo.com/"
+          },
+          {
+            name: "Baidu",
+            href: "https://www.baidu.com/"
+          },
+          {
+            name: "Yandex",
+            href: "https://yandex.com/"
           }
         ]
       }
