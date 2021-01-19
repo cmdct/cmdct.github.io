@@ -1,6 +1,6 @@
 const content = {
   home: {
-    name: "Bureau",
+    name: "Documentation",
     cards: [{
         name: "Langage",
         links: [{
