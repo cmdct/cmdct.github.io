@@ -1,6 +1,6 @@
 const content = {
   home: {
-    name: "Documentation",
+    name: "Bureau",
     cards: [{
         name: "Langage",
         links: [{
@@ -224,7 +224,7 @@ const content = {
     ]
   },
   doc: {
-    name: "Produit",
+    name: "Documentation",
     a: {
       name: "Platform",
       href: "https://community.commandersact.com/platform"
