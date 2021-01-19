@@ -64,7 +64,7 @@ const content = {
             href: "https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr"
           },
           {
-            name: "Documentation",
+            name: "Community",
             href: "https://community.commandersact.com/en"
           },
           {
