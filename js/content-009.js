@@ -224,7 +224,7 @@ const content = {
     ]
   },
   doc: {
-    name: "Documentation",
+    name: "Produit",
     a: {
       name: "Platform",
       href: "https://community.commandersact.com/platform"
