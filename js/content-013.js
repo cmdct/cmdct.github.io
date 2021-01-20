@@ -172,54 +172,6 @@ const content = {
             href: "https://regexcheatsheet.com"
           }
         ]
-      },
-      {
-        name: "Recherche",
-        links: [{
-            name: "Google",
-            href: "https://www.google.com"
-          },
-          {
-            name: "Bing",
-            href: "https://www.bing.com"
-          },
-          {
-            name: "Yahoo",
-            href: "https://search.yahoo.com"
-          },
-          {
-            name: "Baidu",
-            href: "https://www.baidu.com"
-          },
-          {
-            name: "Yandex",
-            href: "https://yandex.com"
-          }
-        ]
-      },
-      {
-        name: "Veille",
-        links: [{
-            name: "Blog du Modérateur",
-            href: "https://www.blogdumoderateur.com"
-          },
-          {
-            name: "Industrie Techno",
-            href: "https://www.industrie-techno.com"
-          },
-          {
-            name: "Usine Digitale",
-            href: "https://www.usine-digitale.fr"
-          },
-          {
-            name: "Next INpact",
-            href: "https://www.nextinpact.com"
-          },
-          {
-            name: "Silicon",
-            href: "https://www.silicon.fr"
-          }
-        ]
       }
     ]
   },
