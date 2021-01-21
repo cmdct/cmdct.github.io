@@ -82,23 +82,6 @@ const content = {
         ]
       },
       {
-        name: "Client",
-        links: [
-          {
-            name: "DevTools",
-            href: "https://developers.google.com/web/tools/chrome-devtools"
-          },
-          {
-            name: "Local Overrides",
-            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
-          },
-          {
-            name: "Resource Override",
-            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
-          }
-        ]
-      },
-      {
         name: "Code",
         links: [
           {
@@ -154,19 +137,19 @@ const content = {
         ]
       },
       {
-        name: "Regex",
+        name: "Client",
         links: [
           {
-            name: "101",
-            href: "https://regex101.com"
+            name: "DevTools",
+            href: "https://developers.google.com/web/tools/chrome-devtools"
           },
           {
-            name: "Tutorial",
-            href: "http://www.rexegg.com"
+            name: "Local Overrides",
+            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
           },
           {
-            name: "Cheat Sheet",
-            href: "https://regexcheatsheet.com"
+            name: "Resource Override",
+            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
           }
         ]
       },
@@ -186,7 +169,24 @@ const content = {
             href: "https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque"
           }
         ]
-      }
+      },
+      {
+        name: "Regex",
+        links: [
+          {
+            name: "101",
+            href: "https://regex101.com"
+          },
+          {
+            name: "Tutorial",
+            href: "http://www.rexegg.com"
+          },
+          {
+            name: "Cheat Sheet",
+            href: "https://regexcheatsheet.com"
+          }
+        ]
+      },
     ]
   },
   doc: {
