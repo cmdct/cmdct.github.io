@@ -1,9 +1,11 @@
 const content = {
   home: {
     name: "Bureau",
-    cards: [{
+    cards: [
+      {
         name: "Langage",
-        links: [{
+        links: [
+          {
             name: "Tech",
             href: "https://techterms.com"
           },
@@ -31,7 +33,8 @@ const content = {
       },
       {
         name: "Gestion",
-        links: [{
+        links: [
+          {
             name: "Lucca",
             href: "https://fjordtechnologies.ilucca.net/home"
           },
@@ -55,7 +58,8 @@ const content = {
       },
       {
         name: "Solution",
-        links: [{
+        links: [
+          {
             name: "Platform",
             href: "https://platform.commandersact.com"
           },
@@ -79,7 +83,8 @@ const content = {
       },
       {
         name: "Client",
-        links: [{
+        links: [
+          {
             name: "DevTools",
             href: "https://developers.google.com/web/tools/chrome-devtools"
           },
@@ -88,26 +93,15 @@ const content = {
             href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
           },
           {
-            name: "URL Encoding",
-            href: "https://www.w3schools.com/tags/ref_urlencode.ASP"
-          },
-          {
-            name: "Status Codes",
-            href: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
-          },
-          {
-            name: "Check IP",
-            href: "http://checkip.amazonaws.com"
-          },
-          {
-            name: "Masque",
-            href: "https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque"
+            name: "Resource Override",
+            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
           }
         ]
       },
       {
         name: "Code",
-        links: [{
+        links: [
+          {
             name: "Beautifier",
             href: "https://beautifier.io"
           },
@@ -123,7 +117,8 @@ const content = {
       },
       {
         name: "JavaScript",
-        links: [{
+        links: [
+          {
             name: "MDN",
             href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           },
@@ -139,7 +134,8 @@ const content = {
       },
       {
         name: "CSS",
-        links: [{
+        links: [
+          {
             name: "Selectors",
             href: "https://www.w3schools.com/cssref/css_selectors.asp"
           },
@@ -159,7 +155,8 @@ const content = {
       },
       {
         name: "Regex",
-        links: [{
+        links: [
+          {
             name: "101",
             href: "https://regex101.com"
           },
@@ -170,6 +167,23 @@ const content = {
           {
             name: "Cheat Sheet",
             href: "https://regexcheatsheet.com"
+          }
+        ]
+      },
+      {
+        name: "Réseau",
+        links: [
+          {
+            name: "Status Codes",
+            href: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
+          },
+          {
+            name: "Check IP",
+            href: "http://checkip.amazonaws.com"
+          },
+          {
+            name: "Masque",
+            href: "https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque"
           }
         ]
       }
@@ -223,25 +237,29 @@ const content = {
         href: "https://www.commandersact.com"
       }
     }
-
   },
   default: "Cette page n'existe pas",
   site: {
     name: "Cmd",
     footer: {
-      texts: [{
-        name: "GitHub Pages",
-        href: "https://pages.github.com"
-      }],
-      icons: [{
-        name: "Github",
-        href: "https://github.com/cmdct/cmdct.github.io",
-        src: "images/iconmonstr-github.png"
-      }]
+      texts: [
+        {
+          name: "GitHub Pages",
+          href: "https://pages.github.com"
+        }
+      ],
+      icons: [
+        {
+          name: "Github",
+          href: "https://github.com/cmdct/cmdct.github.io",
+          src: "images/iconmonstr-github.png"
+        }
+      ]
     }
   }
 };
-content.site.nav = [{
+content.site.nav = [
+  {
     name: content.home.name,
     href: "#home"
   },
