@@ -47,10 +47,6 @@ const content = {
             href: "https://tagcoteam.slack.com"
           },
           {
-            name: "Stream",
-            href: "https://web.microsoftstream.com"
-          },
-          {
             name: "Office",
             href: "https://login.microsoftonline.com"
           },
