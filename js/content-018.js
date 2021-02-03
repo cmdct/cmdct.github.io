@@ -133,6 +133,10 @@ const content = {
           {
             name: "ColorZilla",
             href: "https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp"
+          },
+          {
+            name: "Web Safe Fonts",
+            href: "https://www.w3schools.com/cssref/css_websafe_fonts.asp"
           }
         ]
       },
