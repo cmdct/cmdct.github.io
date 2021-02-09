@@ -169,6 +169,10 @@ const content = {
             href: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
           },
           {
+            name: "Internet Speed",
+            href: "https://fast.com"
+          },
+          {
             name: "Check IP",
             href: "http://checkip.amazonaws.com"
           },
