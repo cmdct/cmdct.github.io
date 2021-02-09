@@ -154,6 +154,10 @@ const content = {
           {
             name: "Resource Override",
             href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
+          },
+          {
+            name: "Wappalyzer",
+            href: "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related"
           }
         ]
       },
