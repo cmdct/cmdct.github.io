@@ -148,6 +148,10 @@ const content = {
             href: "https://developers.google.com/web/tools/chrome-devtools"
           },
           {
+            name: "Debugging",
+            href: "https://developers.google.com/web/tools/chrome-devtools/javascript/reference"
+          },
+          {
             name: "Local Overrides",
             href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
           },
