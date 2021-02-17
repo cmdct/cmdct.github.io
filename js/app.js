@@ -1,5 +1,6 @@
 
 // TODO:
+// - Add https://open.spotify.com/
 // - Find and add a Media Queries resource
 // - Create and add a dedicated Google Analytics account
 // - Add labels on hover on documentation bullets, based on fiche-de-poste.pdf
