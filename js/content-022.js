@@ -95,6 +95,10 @@ const content = {
           {
             name: "Codeshare",
             href: "https://codeshare.io"
+          },
+          {
+            name: "Byte Counter",
+            href: "https://mothereff.in/byte-counter"
           }
         ]
       },
