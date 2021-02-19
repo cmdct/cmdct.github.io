@@ -160,6 +160,10 @@ const content = {
             href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
           },
           {
+            name: "Web Fundamentals",
+            href: "https://developers.google.com/web/fundamentals"
+          },
+          {
             name: "Resource Override",
             href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
           },
