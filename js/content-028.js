@@ -206,16 +206,16 @@ const content = {
             href: "https://regex101.com"
           },
           {
-            name: "RegExr",
-            href: "https://regexr.com"
-          },
-          {
             name: "Tutorial",
             href: "http://www.rexegg.com"
           },
           {
             name: "Cheat Sheet",
             href: "https://regexcheatsheet.com"
+          },
+          {
+            name: "RegExr",
+            href: "https://regexr.com"
           }
         ]
       },
