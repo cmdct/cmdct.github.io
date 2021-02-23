@@ -206,6 +206,10 @@ const content = {
             href: "https://regex101.com"
           },
           {
+            name: "RegExr",
+            href: "https://regexr.com"
+          },
+          {
             name: "Tutorial",
             href: "http://www.rexegg.com"
           },
