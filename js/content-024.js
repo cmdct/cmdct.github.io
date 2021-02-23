@@ -47,6 +47,10 @@ const content = {
             href: "https://tagcoteam.slack.com"
           },
           {
+            name: "Drive",
+            href: "https://drive.google.com/drive/my-drive"
+          },
+          {
             name: "Office",
             href: "https://login.microsoftonline.com"
           },
