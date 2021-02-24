@@ -223,16 +223,16 @@ const content = {
         name: "Tag Manager",
         links: [
           {
-            name: "Help",
-            href: "https://support.google.com/tagmanager/?hl=en#topic=3441530"
-          },
-          {
             name: "GTM",
             href: "https://tagmanager.google.com/#/home"
           },
           {
             name: "Academy",
             href: "https://analytics.google.com/analytics/academy/course/5"
+          },
+          {
+            name: "Help",
+            href: "https://support.google.com/tagmanager/?hl=en#topic=3441530"
           }
         ]
       },
