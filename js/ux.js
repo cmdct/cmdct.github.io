@@ -2,7 +2,11 @@ const ux = {
   pageView: (template, page) => {
     tc_vars.env_template = template;
     tc_vars.page_name = page;
-    if (tC) tC.event.virtualPageView(this, {})
+    try {
+      tC.event.virtualPageView(this, {})
+    } catch (e) {
+      console.log(e)
+    }
   },
   clickEvent: (category, label) => {
     if (tC) tC.event.buttonClick(this, {
