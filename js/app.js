@@ -1,5 +1,6 @@
 
 // TODO:
+// - Add a link to a blank page for tests
 // - Add https://open.spotify.com/
 // - Add https://myedenred.fr/
 // - Find and add a Media Queries resource
