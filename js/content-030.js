@@ -40,7 +40,7 @@ const content = {
           },
           {
             name: "Zoho",
-            href: "https://care.commandersact.com/support/commandersact529"
+            href: "https://projects.zoho.eu"
           },
           {
             name: "Slack",
