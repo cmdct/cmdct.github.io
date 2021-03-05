@@ -254,7 +254,7 @@ const content = {
           },
           {
             name: "Help",
-            href: "https://analytics.google.com/analytics/academy/course/7"
+            href: "https://support.google.com/analytics/?hl=en#topic=9143232"
           }
         ]
       }
