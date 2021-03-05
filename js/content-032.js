@@ -249,6 +249,10 @@ const content = {
             href: "https://analytics.google.com/analytics/academy/"
           },
           {
+            name: "Protocol",
+            href: "https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters"
+          },
+          {
             name: "Help",
             href: "https://analytics.google.com/analytics/academy/course/7"
           }
