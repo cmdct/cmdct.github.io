@@ -219,6 +219,7 @@ const content = {
           }
         ]
       },
+
       {
         name: "Tag Manager",
         links: [
@@ -236,6 +237,23 @@ const content = {
           }
         ]
       },
+      {
+        name: "Analytics",
+        links: [
+          {
+            name: "GA",
+            href: "https://analytics.google.com"
+          },
+          {
+            name: "Academy",
+            href: "https://analytics.google.com/analytics/academy/"
+          },
+          {
+            name: "Help",
+            href: "https://analytics.google.com/analytics/academy/course/7"
+          }
+        ]
+      }
     ]
   },
   doc: {
