@@ -143,6 +143,10 @@ const content = {
             href: "https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp"
           },
           {
+            name: "Hex to RGB",
+            href: "https://www.rapidtables.com/convert/color/hex-to-rgb.html"
+          },
+          {
             name: "Web Safe Fonts",
             href: "https://www.w3schools.com/cssref/css_websafe_fonts.asp"
           }
