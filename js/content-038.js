@@ -86,6 +86,35 @@ const content = {
         ]
       },
       {
+        name: "Client",
+        links: [
+          {
+            name: "DevTools",
+            href: "https://developers.google.com/web/tools/chrome-devtools"
+          },
+          {
+            name: "Debugging",
+            href: "https://developers.google.com/web/tools/chrome-devtools/javascript/reference"
+          },
+          {
+            name: "Local Overrides",
+            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
+          },
+          {
+            name: "Web Fundamentals",
+            href: "https://developers.google.com/web/fundamentals"
+          },
+          {
+            name: "Resource Override",
+            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
+          },
+          {
+            name: "Wappalyzer",
+            href: "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related"
+          }
+        ]
+      },
+      {
         name: "Code",
         links: [
           {
@@ -153,31 +182,19 @@ const content = {
         ]
       },
       {
-        name: "Client",
+        name: "Image",
         links: [
           {
-            name: "DevTools",
-            href: "https://developers.google.com/web/tools/chrome-devtools"
+            name: "Base64 Encoder",
+            href: "https://www.base64-image.de"
           },
           {
-            name: "Debugging",
-            href: "https://developers.google.com/web/tools/chrome-devtools/javascript/reference"
+            name: "iconmonstr",
+            href: "https://iconmonstr.com"
           },
           {
-            name: "Local Overrides",
-            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
-          },
-          {
-            name: "Web Fundamentals",
-            href: "https://developers.google.com/web/fundamentals"
-          },
-          {
-            name: "Resource Override",
-            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
-          },
-          {
-            name: "Wappalyzer",
-            href: "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related"
+            name: "Unsplash",
+            href: "https://unsplash.com"
           }
         ]
       },
@@ -223,7 +240,6 @@ const content = {
           }
         ]
       },
-
       {
         name: "Tag Manager",
         links: [
@@ -259,23 +275,6 @@ const content = {
           {
             name: "Help",
             href: "https://support.google.com/analytics/?hl=en#topic=9143232"
-          }
-        ]
-      },
-      {
-        name: "Image",
-        links: [
-          {
-            name: "Base64 Encoder",
-            href: "https://www.base64-image.de"
-          },
-          {
-            name: "iconmonstr",
-            href: "https://iconmonstr.com"
-          },
-          {
-            name: "Unsplash",
-            href: "https://unsplash.com"
           }
         ]
       }
