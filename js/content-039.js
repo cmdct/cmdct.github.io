@@ -182,6 +182,23 @@ const content = {
         ]
       },
       {
+        name: "Font",
+        links: [
+          {
+            name: "Base64 Transfonter",
+            href: "https://transfonter.org/"
+          },
+          {
+            name: "Web Safe Fonts",
+            href: "https://www.w3schools.com/cssref/css_websafe_fonts.asp"
+          },
+          {
+            name: "Google Fonts",
+            href: "https://fonts.google.com/"
+          }
+        ]
+      },
+      {
         name: "Image",
         links: [
           {
