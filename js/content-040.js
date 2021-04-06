@@ -3,36 +3,61 @@ const content = {
     name: "Bureau",
     cards: [
       {
-        name: "Langage",
+        name: "IT watch",
         links: [
           {
-            name: "Tech",
-            href: "https://techterms.com"
+            name: "BDM",
+            href: "https://www.blogdumoderateur.com/"
           },
           {
-            name: "Marketing",
-            href: "https://www.definitions-marketing.com"
+            name: "Silicon",
+            href: "https://www.silicon.fr/"
           },
           {
-            name: "Conjugueur",
-            href: "https://www.gymglish.com/fr/conjugaison/vatefaireconjuguer"
+            name: "Next Inpact",
+            href: "https://www.nextinpact.com/"
           },
           {
-            name: "Wiktionary",
-            href: "https://www.wiktionary.org"
+            name: "L'Usine Digitale",
+            href: "https://www.usine-digitale.fr/"
           },
           {
-            name: "Wikipedia",
-            href: "https://www.wikipedia.org"
+            name: "GitHub Trending",
+            href: "https://github.com/trending"
           },
           {
-            name: "Translate",
-            href: "https://translate.google.com/?ui=tob&sl=en&tl=fr&op=translate"
+            name: "Developpez",
+            href: "https://www.developpez.com/"
+          },
+        ]
+      },
+      {
+        name: "Commanders Act",
+        links: [
+          {
+            name: "Platform",
+            href: "https://platform.commandersact.com"
+          },
+          {
+            name: "Extension",
+            href: "https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr"
+          },
+          {
+            name: "Community",
+            href: "https://community.commandersact.com/en"
+          },
+          {
+            name: "Corporate",
+            href: "https://www.commandersact.com"
+          },
+          {
+            name: "GitHub",
+            href: "https://github.com/TagCommander"
           }
         ]
       },
       {
-        name: "Gestion",
+        name: "Internal",
         links: [
           {
             name: "Lucca",
@@ -61,56 +86,31 @@ const content = {
         ]
       },
       {
-        name: "Solution",
+        name: "Language",
         links: [
           {
-            name: "Platform",
-            href: "https://platform.commandersact.com"
+            name: "Tech",
+            href: "https://techterms.com"
           },
           {
-            name: "Extension",
-            href: "https://chrome.google.com/webstore/detail/commanders-act-assistant/lfaifjhjdolnpnlgeohohaalbeidhlpj?hl=fr"
+            name: "Marketing",
+            href: "https://www.definitions-marketing.com"
           },
           {
-            name: "Community",
-            href: "https://community.commandersact.com/en"
+            name: "Conjugueur",
+            href: "https://www.gymglish.com/fr/conjugaison/vatefaireconjuguer"
           },
           {
-            name: "Corporate",
-            href: "https://www.commandersact.com"
+            name: "Wiktionary",
+            href: "https://www.wiktionary.org"
           },
           {
-            name: "GitHub",
-            href: "https://github.com/TagCommander"
-          }
-        ]
-      },
-      {
-        name: "Client",
-        links: [
-          {
-            name: "DevTools",
-            href: "https://developers.google.com/web/tools/chrome-devtools"
+            name: "Wikipedia",
+            href: "https://www.wikipedia.org"
           },
           {
-            name: "Debugging",
-            href: "https://developers.google.com/web/tools/chrome-devtools/javascript/reference"
-          },
-          {
-            name: "Local Overrides",
-            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
-          },
-          {
-            name: "Web Fundamentals",
-            href: "https://developers.google.com/web/fundamentals"
-          },
-          {
-            name: "Resource Override",
-            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
-          },
-          {
-            name: "Wappalyzer",
-            href: "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related"
+            name: "Translate",
+            href: "https://translate.google.com/?ui=tob&sl=en&tl=fr&op=translate"
           }
         ]
       },
@@ -132,6 +132,27 @@ const content = {
           {
             name: "Byte Counter",
             href: "https://mothereff.in/byte-counter"
+          }
+        ]
+      },
+      {
+        name: "Regex",
+        links: [
+          {
+            name: "101",
+            href: "https://regex101.com"
+          },
+          {
+            name: "Tutorial",
+            href: "http://www.rexegg.com"
+          },
+          {
+            name: "Cheat Sheet",
+            href: "https://regexcheatsheet.com"
+          },
+          {
+            name: "RegExr",
+            href: "https://regexr.com"
           }
         ]
       },
@@ -216,7 +237,7 @@ const content = {
         ]
       },
       {
-        name: "Réseau",
+        name: "Network",
         links: [
           {
             name: "Status Codes",
@@ -237,61 +258,60 @@ const content = {
         ]
       },
       {
-        name: "Regex",
+        name: "Google Chrome",
         links: [
           {
-            name: "101",
-            href: "https://regex101.com"
+            name: "DevTools",
+            href: "https://developers.google.com/web/tools/chrome-devtools"
           },
           {
-            name: "Tutorial",
-            href: "http://www.rexegg.com"
+            name: "Debugging",
+            href: "https://developers.google.com/web/tools/chrome-devtools/javascript/reference"
           },
           {
-            name: "Cheat Sheet",
-            href: "https://regexcheatsheet.com"
+            name: "Local Overrides",
+            href: "https://developers.google.com/web/updates/2018/01/devtools#overrides"
           },
           {
-            name: "RegExr",
-            href: "https://regexr.com"
+            name: "Web Fundamentals",
+            href: "https://developers.google.com/web/fundamentals"
+          },
+          {
+            name: "Resource Override",
+            href: "https://chrome.google.com/webstore/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii"
+          },
+          {
+            name: "Wappalyzer",
+            href: "https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg/related"
           }
         ]
       },
       {
-        name: "Tag Manager",
+        name: "Google Analytics",
         links: [
+          {
+            name: "Measurement Protocol",
+            href: "https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters"
+          },
+          {
+            name: "Analytics Academy",
+            href: "https://analytics.google.com/analytics/academy/"
+          },
+          {
+            name: "GTM Help",
+            href: "https://support.google.com/tagmanager/?hl=en#topic=3441530"
+          },
+          {
+            name: "GA Help",
+            href: "https://support.google.com/analytics/?hl=en#topic=9143232"
+          },
           {
             name: "GTM",
             href: "https://tagmanager.google.com/#/home"
           },
           {
-            name: "Academy",
-            href: "https://analytics.google.com/analytics/academy/course/5"
-          },
-          {
-            name: "Help",
-            href: "https://support.google.com/tagmanager/?hl=en#topic=3441530"
-          }
-        ]
-      },
-      {
-        name: "Analytics",
-        links: [
-          {
             name: "GA",
             href: "https://analytics.google.com"
-          },
-          {
-            name: "Protocol",
-            href: "https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters"
-          },
-          {
-            name: "Academy",
-            href: "https://analytics.google.com/analytics/academy/"
-          },
-          {
-            name: "Help",
-            href: "https://support.google.com/analytics/?hl=en#topic=9143232"
           }
         ]
       }
