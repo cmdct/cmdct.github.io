@@ -1,6 +1,6 @@
 const content = {
   home: {
-    name: `Desk`,
+    name: `Desktop`,
     cards: [
       {
         name: `IT watch`,
