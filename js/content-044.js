@@ -197,8 +197,8 @@ const content = {
             href: `https://www.w3schools.com/colors/colors_converter.asp`
           },
           {
-            name: `Web Safe Fonts`,
-            href: `https://www.w3schools.com/cssref/css_websafe_fonts.asp`
+            name: `Image Color Picker`,
+            href: `https://imagelr.com`
           }
         ]
       },
@@ -207,7 +207,7 @@ const content = {
         links: [
           {
             name: `Base64 Transfonter`,
-            href: `https://transfonter.org/`
+            href: `https://transfonter.org`
           },
           {
             name: `Web Safe Fonts`,
