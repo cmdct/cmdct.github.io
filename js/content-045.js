@@ -262,7 +262,7 @@ const content = {
         links: [
           {
             name: `DevTools`,
-            href: `https://developers.google.com/web/tools/chrome-devtools`
+            href: `https://developer.chrome.com/docs/devtools/overview/`
           },
           {
             name: `Debugging`,
