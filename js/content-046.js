@@ -6,29 +6,29 @@ const content = {
         name: `IT watch`,
         links: [
           {
-            name: `BDM`,
-            href: `https://www.blogdumoderateur.com/`
-          },
-          {
-            name: `Silicon`,
-            href: `https://www.silicon.fr/`
-          },
-          {
-            name: `Next Inpact`,
-            href: `https://www.nextinpact.com/`
+            name: `Blog Du Moderateur`,
+            href: `https://www.blogdumoderateur.com`
           },
           {
             name: `L'Usine Digitale`,
-            href: `https://www.usine-digitale.fr/`
+            href: `https://www.usine-digitale.fr`
+          },
+          {
+            name: `Indie Hackers`,
+            href: `https://www.indiehackers.com`
+          },
+          {
+            name: `Hacker News`,
+            href: `https://news.ycombinator.com`
+          },
+          {
+            name: `Developpez`,
+            href: `https://www.developpez.com`
           },
           {
             name: `GitHub Trending`,
             href: `https://github.com/trending`
-          },
-          {
-            name: `Developpez`,
-            href: `https://www.developpez.com/`
-          },
+          }
         ]
       },
       {
@@ -215,7 +215,7 @@ const content = {
           },
           {
             name: `Google Fonts`,
-            href: `https://fonts.google.com/`
+            href: `https://fonts.google.com`
           }
         ]
       },
