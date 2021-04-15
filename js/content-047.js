@@ -195,10 +195,6 @@ const content = {
           {
             name: `Color Converter`,
             href: `https://www.w3schools.com/colors/colors_converter.asp`
-          },
-          {
-            name: `Image Color Picker`,
-            href: `https://imagelr.com`
           }
         ]
       },
@@ -222,6 +218,10 @@ const content = {
       {
         name: `Image`,
         links: [
+          {
+            name: `Image Color Picker`,
+            href: `https://imagelr.com`
+          },
           {
             name: `Base64 Encoder`,
             href: `https://www.base64-image.de`
