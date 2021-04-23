@@ -1,13 +1,6 @@
 
 // TODO:
-// - Add a link to a blank page for tests
-// - Add https://open.spotify.com/
-// - Add https://myedenred.fr/
-// - Find and add a Media Queries resource
-// - Create and add a dedicated Google Analytics account
-// - Add labels on hover on documentation bullets, based on fiche-de-poste.pdf
-// - Add a link to Trust Privacy Center to authorize reopening
-// - Add warning message when Trust Privacy is blocked on advanced privacy browser
+// - Add a link to Privacy Center
 // - Add flash message when user consent is saved successfully
 // - Improve nav burger for mobile
 
