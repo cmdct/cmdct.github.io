@@ -1,65 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css/app.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/app.css" />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <script>
+            var tc_vars = {
+                env_work: "prod",
+                env_language: navigator.language,
+                env_template: undefined,
+                page_name: undefined
+            };
+        </script>
+        <script src="https://cdn.tagcommander.com/5423/tc_Sylvain_23.js"></script>
+    </head>
+    <body>
+        <header id="head-b">
+            <a href="#home" onclick="ux.clickEvent('Internal Nav', 'Home Button')">
+                <h1></h1>
+            </a>
+            <nav id="head-d">
+                <div id="drop-i">
+                    <div class="drop-i-l"></div>
+                    <div class="drop-i-s"></div>
+                    <div class="drop-i-l"></div>
+                    <div class="drop-i-s"></div>
+                    <div class="drop-i-l"></div>
+                </div>
+                <div id="drop-i-c"></div>
+            </nav>
+        </header>
 
-    <!-- Commanders Act -->
-    <script>
-      var tc_vars = {
-        env_work: "prod",
-        env_language: navigator.language,
-        env_template: undefined,
-        page_name: undefined
-      };
-    </script>
-    <!-- <script src="https://cdn.tagcommander.com/5423/tc_Sylvain_23.js"></script> -->
-    <!-- Commanders Act -->
+        <div id="container"></div>
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KJ8LRVL');</script>
-    <!-- End Google Tag Manager -->
-
-  </head>
-  <body>
-    <header id="head-b">
-      <a href="#home" onclick="ux.clickEvent('Internal Nav', 'Home Button')">
-        <h1></h1>
-      </a>
-      <nav id="head-d">
-        <div id="drop-i">
-          <div class="drop-i-l"></div>
-          <div class="drop-i-s"></div>
-          <div class="drop-i-l"></div>
-          <div class="drop-i-s"></div>
-          <div class="drop-i-l"></div>
-        </div>
-        <div id="drop-i-c"></div>
-      </nav>
-    </header>
-
-    <div id="container"></div>
-
-    <footer id="foot">
-      <div class="foot-d" id="foot-texts"></div>
-      <div class="foot-d" id="foot-icons"></div>
-    </footer>
-    <noscript>
-      <div id="nos-b">
-        <div id="nos-m">JavaScript is not enabled</div>
-      </div>
-    </noscript>
-    <script src="js/content-048.js"></script>
-    <script src="js/templates.js"></script>
-    <script src="js/utils.js"></script>
-    <script src="js/ux.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+        <footer id="foot">
+            <div class="foot-d" id="foot-texts"></div>
+            <div class="foot-d" id="foot-icons"></div>
+        </footer>
+        <noscript>
+            <div id="nos-b">
+                <div id="nos-m">JavaScript is not enabled</div>
+            </div>
+        </noscript>
+        <script src="js/content-048.js"></script>
+        <script src="js/templates.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/ux.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
