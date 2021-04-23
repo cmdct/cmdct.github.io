@@ -1,15 +1,17 @@
 const ux = {
   pageView: (template, page) => {
-    tc_vars.env_template = template;
-    tc_vars.page_name = page;
-    try {
-      tC.event.virtualPageView(this, {})
-    } catch (e) {
-      console.log(e)
+    if (window.tc_vars) {
+      tc_vars.env_template = template;
+      tc_vars.page_name = page;
+      try {
+        tC.event.virtualPageView(this, {})
+      } catch (e) {
+        console.log(e)
+      }
     }
   },
   clickEvent: (category, label) => {
-    if (tC) tC.event.buttonClick(this, {
+    if (window.tC) tC.event.buttonClick(this, {
       'eventAction': 'Button Click',
       'eventCategory': category,
       'eventLabel': label
