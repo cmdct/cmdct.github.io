@@ -5,6 +5,7 @@
 // - Improve nav burger for mobile
 
 const app = {
+  data: false,
   route: () => {
     switch (location.hash.replace('#', '')) {
       case '':
@@ -25,7 +26,7 @@ const app = {
     document.title = title;
     document.querySelector('#container').innerHTML = html;
     window.scrollTo(0, 0);
-    ux.pageView(template, title)
+    if (app.data) ux.pageView(template, title)
   },
   init: () => {
     app.route();
@@ -33,7 +34,7 @@ const app = {
     document.querySelector('header h1').innerHTML = content.site.name;
     templates.dynamic.nav();
     templates.dynamic.footer();
-    ux.init()
+    if (app.data) ux.init()
   }
 };
 
