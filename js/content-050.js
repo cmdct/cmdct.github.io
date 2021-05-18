@@ -170,6 +170,10 @@ const content = {
           {
             name: `ECMAScript`,
             href: `https://www.ecma-international.org/ecma-262/11.0/index.html#title`
+          },
+          {
+            name: `JSON Syntax`,
+            href: `https://www.w3schools.com/js/js_json_syntax.asp`
           }
         ]
       },
