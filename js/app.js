@@ -3,6 +3,7 @@
 // - Add a link to Privacy Center
 // - Add flash message when user consent is saved successfully
 // - Improve nav burger for mobile
+// - Add a copy paste feature (multiple text possible)
 
 const app = {
   data: false,
